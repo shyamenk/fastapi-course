@@ -3,7 +3,7 @@ services:
   api:
     build: .
     ports:
-      - 8000:8000
+      - 4000:8000
     environment:
       - DATABASE_HOSTNAME=postgres
       - DATABASE_PORT=5432
