@@ -28,4 +28,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Welcome KubeCloud to Fast API"}
+    return {"message": "Welcome to the world of python API Development."}
