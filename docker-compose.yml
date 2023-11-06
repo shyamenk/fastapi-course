@@ -2,6 +2,7 @@ version: "3.8"
 services:
   api:
     build: .
+    depends_on: postgres
     ports:
       - 4000:8000
     environment:
